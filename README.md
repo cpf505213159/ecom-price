@@ -39,3 +39,10 @@ python src/analysis.py          # 计算指标，输出 outputs/metrics.json
 
 ## 数据说明
 本仓库数据为**脱敏/合成**数据，用于可复现地演示分析方法；量级与真实业务口径可能存在差异，方法本身即为项目交付物的核心。
+
+## 真实公开数据集
+
+本仓库在 `data/real/` 附带**真实公开数据集**（来源、许可与字段说明见 `data/real/SOURCES.md`）。
+运行 `python src/real_data_analysis.py` 可基于真实数据复现统计概览，输出到 `outputs/real_metrics.json` 与 `reports/real-data-notes.md`。
+
+> 说明：`data/`、`outputs/metrics.json` 中的主结果是脱敏/仿真案例，用于稳定演示方法论；`data/real/` 使用公开真实数据集验证同一套方法在真实数据上可运行。
