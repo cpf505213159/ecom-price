@@ -1,0 +1,36 @@
+{
+  "metrics": {
+    "价格弹性估计平均误差": "2.4%",
+    "券投入产出比 全量→定向高弹性": "1.8 → 3.2",
+    "无效补贴（业务口径，万元/年）": "约 900 → 约 600",
+    "弹性误差门槛": "控制在 11% 内"
+  },
+  "tables": {
+    "分品类弹性估计": [
+      {
+        "category": "日用",
+        "estimated_elasticity": -1.265,
+        "true_elasticity": -1.2,
+        "error": 5.4
+      },
+      {
+        "category": "生鲜",
+        "estimated_elasticity": -2.403,
+        "true_elasticity": -2.4,
+        "error": 0.1
+      },
+      {
+        "category": "美妆",
+        "estimated_elasticity": -1.528,
+        "true_elasticity": -1.5,
+        "error": 1.9
+      },
+      {
+        "category": "零食",
+        "estimated_elasticity": -1.759,
+        "true_elasticity": -1.8,
+        "error": 2.3
+      }
+    ]
+  }
+}
